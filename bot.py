@@ -2,14 +2,14 @@ import telebot
 import json
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, InputMediaPhoto
 
-TOKEN = "8687497631:AAE4niCmKtkhPsAy44zn04-bZOjJYg94Kd4"
-ADMIN_ID = 5888788582
+TOKEN = "8700265587:AAEDG44wOdFes1BZwfitVRgfP5KUG_xZszU"
+ADMIN_ID = 8398633387
 
 bot = telebot.TeleBot(TOKEN)
 
-premium_channel = "https://t.me/+Pjf9kjog2Y81Njg1"
-demo_channel = "https://t.me/+Pjf9kjog2Y81Njg1"
-how_channel = "https://t.me/+Pjf9kjog2Y81Njg1"
+premium_channel = "https://t.me/+EHaixs22qvtkZGQ1"
+demo_channel = "https://t.me/+ixcjTX1vi1llYWI1"
+how_channel = "https://t.me/+ixcjTX1vi1llYWI1"
 
 waiting_screenshot = {}
 waiting_qr = False
