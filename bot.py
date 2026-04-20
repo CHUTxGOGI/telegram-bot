@@ -5,7 +5,7 @@ import urllib.parse
 import threading
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, InputMediaVideo, InputMediaPhoto
 
-TOKEN = ""
+TOKEN = "8700265587:AAEDG44wOdFes1BZwfitVRgfP5KUG_xZszU"
 bot = telebot.TeleBot(TOKEN)
 
 user_orders = {}
@@ -158,7 +158,7 @@ def callback(call):
 
         user_orders[call.from_user.id] = plan_key
 
-        upi = "paytmqr5meeza@ptys"
+        upi = "paytmqr281005050101143m6mdnsb4e@paytm"
         amount = plan["price"]
         name = "xxx"
 
@@ -201,8 +201,8 @@ def callback(call):
             bot.send_message(call.message.chat.id, "❌ No order found")
             return
 
-        merchantid = "MyYKFI19511126883026"
-        merchantkey = "MyYKFI19511126883026"
+        merchantid = "Mhtnty92929752923906"
+        merchantkey = "Mhtnty92929752923906"
 
         url = f"https://paytm.anujbots.xyz/verify.php?orderid={orderid}&merchantid={merchantid}&merchantkey={merchantkey}"
 
